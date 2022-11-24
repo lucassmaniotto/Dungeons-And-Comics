@@ -1,0 +1,18 @@
+@import url("header.css");
+
+:root {
+    --background-color: #EBECEE;
+    --white: #FFFFFF;
+    --red: #C41018;
+    --gradient-red: linear-gradient(97.54deg, #C41018 35.49%, #893232 165.37%);
+    --lead-gray: #1C252F;
+
+    --font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+}
