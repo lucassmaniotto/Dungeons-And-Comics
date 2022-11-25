@@ -1,0 +1,56 @@
+.banner {
+    background: var(--gradient-red);
+    color: var(--white);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__text {
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.banner__search {
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+    border-radius: 25px;
+    padding: 1em;
+    width: 100%;
+    margin: 1em 0 0 0;
+}
+
+.banner__search:hover {
+    background: var(--white);
+    color: var(--lead-gray);
+    transition: 0.5s;
+}
+
+.banner__search:focus {
+    background: var(--white);
+    color: var(--lead-gray);
+    transition: 0.5s;
+}
+
+.banner__search::placeholder {
+    color: var(--white);
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url(../img/search.svg) no-repeat;
+    background-position: 10px;
+}
+
+.banner__search:focus::placeholder {
+    color: var(--white);
+}
+
+.banner__search:hover::placeholder {
+    color: var(--white);
+}
