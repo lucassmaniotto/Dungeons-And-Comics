@@ -8,6 +8,10 @@
     padding: 1em 0 0.5em 0;
 }
 
+.swiper {
+    z-index: 0;
+}
+
 .swiper-slide img {
     width: 100%;
     height: 100%;
