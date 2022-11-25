@@ -1,0 +1,90 @@
+.carousel__title {
+    color: var(--lead-gray);
+    background-color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.7em 0;
+    color: var(--red);
+}
+
+.swiper-pagination-bullet {
+    background: var(--gradient-red-carousel);
+}
+
+.card {
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.description__rating {
+    margin: 0 0 0.6em 0;
+}
+
+.description__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--lead-gray);
+}
+
+.description__title-book {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+    color: var(--red);
+}
+
+.description__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--lead-gray);
+}
+
+.card__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons__item {
+    margin: 0 0.5em;
+}
+
+.buttons__ancor {
+    background-color: var(--red);
+    padding: 1em 2.4em;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.buttons__ancor:hover {
+    background-color: var(--lead-gray);
+    transition: 0.5s;
+}
