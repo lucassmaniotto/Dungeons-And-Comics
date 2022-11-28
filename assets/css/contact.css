@@ -40,3 +40,25 @@
     background-image: none;
     transition: 0.5s;
 }
+
+@media screen and (min-width: 1024px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3em;
+    }
+    
+    .contact__description {
+        margin-right: 2em;
+        width: 30%;
+    }
+
+    .contact__title {
+        font-size: 24px;
+    }
+
+    .contact__email {
+        width: 30%;
+    }
+}
