@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("carousel.css");
+@import url("topics.css");
 
 :root {
     --background-color: #EBECEE;
@@ -9,6 +10,7 @@
     --gradient-red: linear-gradient(97.54deg, #C41018 35.49%, rgb(0, 0, 0) 165.37%);
     --gradient-red-carousel: linear-gradient(260deg, #C41018 50.49%, rgb(0, 0, 0) 165.37%);
     --lead-gray: #1C252F;
+    --gradient-lead-gray: linear-gradient(97.54deg, #1C252F 35.49%, rgb(83, 83, 83) 165.37%);
 
     --font-family: 'Mulish', sans-serif;
 }
