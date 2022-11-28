@@ -54,3 +54,17 @@
 .banner__search:hover::placeholder {
     color: var(--white);
 }
+
+@media screen and (min-width: 1024px) {
+    .banner__title {
+        font-size: 36px;
+    }
+
+    .banner__search {
+        width: 45%;
+    }
+
+    .banner__search::placeholder {
+        background-position: 5em;
+    }
+}
