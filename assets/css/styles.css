@@ -17,6 +17,7 @@
     --gradient-lead-gray: linear-gradient(97.54deg, #1C252F 35.49%, rgb(83, 83, 83) 165.37%);
 
     --font-family: 'Mulish', sans-serif;
+    --secondary-font-family: 'Josefin Sans', sans-serif;
 }
 
 * {
