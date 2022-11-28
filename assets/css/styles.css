@@ -13,6 +13,8 @@
     --dark-red: #ac161d;
     --gradient-red: linear-gradient(97.54deg, #C41018 35.49%, rgb(0, 0, 0) 165.37%);
     --gradient-red-carousel: linear-gradient(260deg, #C41018 50.49%, rgb(0, 0, 0) 165.37%);
+    --gray: #474646;
+    --light-gray: #858585;
     --lead-gray: #1C252F;
     --gradient-lead-gray: linear-gradient(97.54deg, #1C252F 35.49%, rgb(83, 83, 83) 165.37%);
 
