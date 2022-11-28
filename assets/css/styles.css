@@ -8,7 +8,9 @@
 :root {
     --background-color: #EBECEE;
     --white: #FFFFFF;
+    --gradient-white: linear-gradient(262.46deg, #FFFFFF 0%, rgb(28, 37, 47)  122%);
     --red: #C41018;
+    --dark-red: #ac161d;
     --gradient-red: linear-gradient(97.54deg, #C41018 35.49%, rgb(0, 0, 0) 165.37%);
     --gradient-red-carousel: linear-gradient(260deg, #C41018 50.49%, rgb(0, 0, 0) 165.37%);
     --lead-gray: #1C252F;

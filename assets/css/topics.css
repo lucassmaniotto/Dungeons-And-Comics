@@ -28,3 +28,9 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+.topics__link:hover, .topics__item:focus {
+    background: var(--gradient-white);
+    color: var(--lead-gray);
+    transition: 0.5s;
+}

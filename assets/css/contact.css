@@ -23,7 +23,7 @@
 }
 
 .contact__email:hover, .contact__email:focus {
-    background-color: var(--red);
+    background: var(--dark-red);
     color: var(--white);
     transition: 0.5s;
 }
@@ -32,8 +32,11 @@
     font-family: var(--font-family);
     color: var(--red);
     background: url(../img/email.svg) no-repeat;
-    padding-left: 2.5em;
+    padding-left: 2.5em
 }
 
-
-
+.contact__email:hover::placeholder, .contact__email:focus::placeholder {
+    color: var(--dark-red);
+    background-image: none;
+    transition: 0.5s;
+}
