@@ -68,9 +68,17 @@
                 <li class="options__item"><a href="#" class="options__link">Minha estante</a></li>
             </ul>
             <div class="container">
-                <a href="#"><img src="assets/img/favorites.svg" alt="Meus favoritos" class="container__img container__img-transparent"></a>
-                <a href="#"><img src="assets/img/purchases.svg" alt="Carrinho de compras" class="container__img"></a>
-                <a href="#"><img src="assets/img/user.svg" alt="Meu perfil" class="container__img"></a>
+                <a href="#">
+                    <img src="assets/img/favorites.svg" alt="Meus favoritos" class="container__img container__img-transparent">
+                </a>
+                <a href="#" class="container__link">
+                    <img src="assets/img/purchases.svg" alt="Carrinho de compras" class="container__img">
+                    <p class="container__text">Minha sacola</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="assets/img/user.svg" alt="Meu perfil" class="container__img">
+                    <p class="container__text">Meu perfil</p>
+                </a>
             </div>
         </header>
         <section class="banner">
@@ -80,78 +88,82 @@
         </section>
         <section class="carousel">
             <h2 class="carousel__title">Últimos lançamentos</h2>
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="assets/img/spider-man.svg" alt="Spider-Man November Comic 2022"></div>
-                  <div class="swiper-slide"><img src="assets/img/ordem-paranormal-rpg.svg" alt="Ordem Paranormal RPG - Livro de Regras"></div>
-                  <div class="swiper-slide"><img src="assets/img/batman.svg" alt="Batman November Comic 2022"></div>
-                  <div class="swiper-slide"><img src="assets/img/cyberpunk-red.svg" alt="Cyberpunk RED"></div>
-                  <div class="swiper-slide"><img src="assets/img/naruto.svg" alt="Naruto Shippuden Gold 61"></div>
-                  <div class="swiper-slide"><img src="assets/img/o-guia-definitivo-de-rpg.svg" alt="O Guia Definitivo de RPG"></div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-            <div class="card">
-                <!-- First line-->
-                <div class="card__description">
-                    <!-- First column-->
-                    <div class="description">
-                        <h3 class="description__title">Talvez você também se interesse por</h3>
-                        <h2 class="description__title-book">Ordem Paranormal RPG</h2>
-                        <p class="description__text">A maior série de RPG do Brasil agora é um jogo completo de mistério, terror e ação!</p>
+            <div class="carousel__container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/spider-man.svg" alt="Spider-Man November Comic 2022"></div>
+                    <div class="swiper-slide"><img src="assets/img/ordem-paranormal-rpg.svg" alt="Ordem Paranormal RPG - Livro de Regras"></div>
+                    <div class="swiper-slide"><img src="assets/img/batman.svg" alt="Batman November Comic 2022"></div>
+                    <div class="swiper-slide"><img src="assets/img/cyberpunk-red.svg" alt="Cyberpunk RED"></div>
+                    <div class="swiper-slide"><img src="assets/img/naruto.svg" alt="Naruto Shippuden Gold 61"></div>
+                    <div class="swiper-slide"><img src="assets/img/o-guia-definitivo-de-rpg.svg" alt="O Guia Definitivo de RPG"></div>
                     </div>
-                    <img src="assets/img/ordem-paranormal-highlight.svg" alt="Ordem Paranormal RPG">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <!-- Second line-->
-                <div class="card__buttons">
-                    <!-- First column-->
-                    <ul class="buttons">
-                        <li class="buttons__item"><img src="assets/img/favorites.svg" alt="Favoritar livro" ></li>
-                        <li class="buttons__item"><img src="assets/img/purchases.svg" alt="Adicionar no carrinho de compras"></li>
-                    </ul>
-                    <!-- Second column-->
-                    <a href="#" class="buttons__ancor">Saiba mais</a>
+                <div class="card">
+                    <!-- First line-->
+                    <div class="card__description">
+                        <!-- First column-->
+                        <div class="description">
+                            <h3 class="description__title">Talvez você também se interesse por...</h3>
+                            <h2 class="description__title-book">Ordem Paranormal RPG</h2>
+                            <p class="description__text">A maior série de RPG do Brasil agora é um jogo completo de mistério, terror e ação!</p>
+                        </div>
+                        <img src="assets/img/ordem-paranormal-highlight.svg" alt="Ordem Paranormal RPG">
+                    </div>
+                    <!-- Second line-->
+                    <div class="card__buttons">
+                        <!-- First column-->
+                        <ul class="buttons">
+                            <li class="buttons__item"><img src="assets/img/favorites.svg" alt="Favoritar livro" ></li>
+                            <li class="buttons__item"><img src="assets/img/purchases.svg" alt="Adicionar no carrinho de compras"></li>
+                        </ul>
+                        <!-- Second column-->
+                        <a href="#" class="buttons__ancor">Saiba mais</a>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="carousel">
             <h2 class="carousel__title">Mais vendidos</h2>
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide"><img src="assets/img/dnd-master-guide.svg" alt="D&D - Guia do Mestre"></div>
-                  <div class="swiper-slide"><img src="assets/img/dnd-players-handbook.svg" alt="D&D - Livro do Jogador"></div>
-                  <div class="swiper-slide"><img src="assets/img/dnd-monster-manual.svg" alt="D&D - Manual dos Monstros"></div>
-                  <div class="swiper-slide"><img src="assets/img/spider-man-miles.svg" alt="Miles Morales - Spider-Man"></div>
-                  <div class="swiper-slide"><img src="assets/img/death-note.svg" alt="Death Note"></div>
-                  <div class="swiper-slide"><img src="assets/img/casos paranormais.svg" alt="O Guia Definitivo de RPG"></div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-            <div class="card">
-                <!-- First line-->
-                <div class="card__description">
-                    <!-- First column-->
-                    <div class="description">
-                        <img src="assets/img/rating.svg" alt="Avaliação da Escritora" class="description__rating">
-                        <h3 class="description__title">Autora do Mês</h3>
-                        <h2 class="description__title-book">Juliana Agarikov</h2>
-                        <p class="description__text">Escritora e pesquisadora, Juliana é especialista em terror psicológico e suspense.</p>
+            <div class="carousel__container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/dnd-master-guide.svg" alt="D&D - Guia do Mestre"></div>
+                    <div class="swiper-slide"><img src="assets/img/dnd-players-handbook.svg" alt="D&D - Livro do Jogador"></div>
+                    <div class="swiper-slide"><img src="assets/img/dnd-monster-manual.svg" alt="D&D - Manual dos Monstros"></div>
+                    <div class="swiper-slide"><img src="assets/img/spider-man-miles.svg" alt="Miles Morales - Spider-Man"></div>
+                    <div class="swiper-slide"><img src="assets/img/death-note.svg" alt="Death Note"></div>
+                    <div class="swiper-slide"><img src="assets/img/casos paranormais.svg" alt="O Guia Definitivo de RPG"></div>
                     </div>
-                    <img src="assets/img/writer-profile.svg" alt="Ordem Paranormal RPG">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <!-- Second line-->
-                <div class="card__buttons">
-                    <!-- First column-->
-                    <ul class="buttons">
-                        <li class="buttons__item"><img src="assets/img/favorites.svg" alt="Favoritar livro" ></li>
-                        <li class="buttons__item"><img src="assets/img/purchases.svg" alt="Adicionar no carrinho de compras"></li>
-                    </ul>
-                    <!-- Second column-->
-                    <a href="#" class="buttons__ancor">Saiba mais</a>
+                <div class="card">
+                    <!-- First line-->
+                    <div class="card__description">
+                        <!-- First column-->
+                        <div class="description">
+                            <img src="assets/img/rating.svg" alt="Avaliação da Escritora" class="description__rating">
+                            <h3 class="description__title">Autora do Mês</h3>
+                            <h2 class="description__title-book">Juliana Agarikov</h2>
+                            <p class="description__text">Escritora e pesquisadora, Juliana é especialista em terror psicológico e suspense.</p>
+                        </div>
+                        <img src="assets/img/writer-profile.svg" alt="Ordem Paranormal RPG">
+                    </div>
+                    <!-- Second line-->
+                    <div class="card__buttons">
+                        <!-- First column-->
+                        <ul class="buttons">
+                            <li class="buttons__item"><img src="assets/img/favorites.svg" alt="Favoritar livro" ></li>
+                            <li class="buttons__item"><img src="assets/img/purchases.svg" alt="Adicionar no carrinho de compras"></li>
+                        </ul>
+                        <!-- Second column-->
+                        <a href="#" class="buttons__ancor">Saiba mais</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -272,6 +284,10 @@
                 pagination: {
                     el: '.swiper-pagination',
                     type: 'bullets',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
                 },
             });
         </script>

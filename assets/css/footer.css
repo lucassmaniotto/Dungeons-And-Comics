@@ -15,12 +15,12 @@ hr {
     .footer {
         display: flex;
         justify-content: space-around;
+        padding: 2em 0;
     }
 
     .footer__title {
         font-size: 24px;
         font-weight: 500;
-        margin: 1.1em 0 0 0;
     }
 
     .footer-list {
@@ -31,7 +31,8 @@ hr {
         font-size: 14px;
         color: var(--light-gray);
         text-transform: uppercase;
-        margin: 2.5em 0 2em 0;
+        margin-bottom: 1.5em;
+        
     }
 
     .footer-list__item {
@@ -45,4 +46,15 @@ hr {
         margin-left: 1em;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+    .footer-list {
+        border-left: 1px solid var(--light-gray);
+        padding-left: 2em;
+    }
+
+    .footer {
+        padding: 3em 0;
+    }
 }
