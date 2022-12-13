@@ -55,6 +55,7 @@
 
 .container__title {
     display: none;
+    color: var(--lead-gray);
 }
 
 .menu-list__item, .menu-list__title{

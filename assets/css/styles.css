@@ -4,6 +4,7 @@
 @import url("topics.css");
 @import url("contact.css");
 @import url("footer.css");
+@import url("register.css");
 
 :root {
     --background-color: #EBECEE;
@@ -24,6 +25,7 @@
 
 * {
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {

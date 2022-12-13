@@ -1,0 +1,45 @@
+.register__background {
+    background-color: var(--white);
+}
+
+.main-register {
+    width: 50vw;
+    margin: 5em auto 6em auto;
+}
+
+.form__title {
+    font-size: 1.75em;
+    font-weight: 700;
+    color: var(--red);
+}
+
+.form__subtitle {
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 26px;
+    color: var(--lead-gray);
+    margin: 3em 0 2em 0;
+}
+
+.form__camp {
+    margin: 0.6em 3em 0.6em 0;
+}
+
+.form__pair { 
+    display: flex;
+}
+
+.label__camp {
+    display: block;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--lead-gray);
+    margin: 0.5em 0 0.5em 0.5em;
+}
+
+.write__camp {
+    border: 1px solid var(--dark-red);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}

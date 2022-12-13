@@ -14,7 +14,7 @@
         <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon" />
         <title>Dungeons & Comics</title>
     </head>
-    <body>
+    <body class="register__background">
         <header class="header">
             <div class="container">
                 <input type="checkbox" id="menu" class="container__button">
@@ -84,128 +84,32 @@
             </div>
         </header>
         <section class="banner">
-            <h2 class="banner__title">Já sabe por onde começar?</h2>
-            <p class="banner__text">Encontre em nossa estante o que precisa para sua campanha ou leitura!</p>
-            <input type="search" class="banner__search" placeholder="Qual será sua próxima nerdice?">
+            <h2 class="banner__title">Tela de cadastro</h2>
         </section>
-        <section class="carousel">
-            <h2 class="carousel__title">Últimos lançamentos</h2>
-            <div class="carousel__container">
-                <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="assets/img/spider-man.svg" alt="Spider-Man November Comic 2022"></div>
-                    <div class="swiper-slide"><img src="assets/img/ordem-paranormal-rpg.svg" alt="Ordem Paranormal RPG - Livro de Regras"></div>
-                    <div class="swiper-slide"><img src="assets/img/batman.svg" alt="Batman November Comic 2022"></div>
-                    <div class="swiper-slide"><img src="assets/img/cyberpunk-red.svg" alt="Cyberpunk RED"></div>
-                    <div class="swiper-slide"><img src="assets/img/naruto.svg" alt="Naruto Shippuden Gold 61"></div>
-                    <div class="swiper-slide"><img src="assets/img/o-guia-definitivo-de-rpg.svg" alt="O Guia Definitivo de RPG"></div>
-                    </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+        <main class="main-register">
+            <h2 class="form__title">Dados de cadastro</h2>
+            <form class="form" id="form" target="_blank" onsubmit="location.replace('./submited-register.html')">
+                <h3 class="form__subtitle">Dados pessoais</h3>
+                <div class="form__camp">
+                    <label for="name" class="label__camp">Nome Completo</label>
+                    <input type="text" name="name" id="name" class="write__camp">
                 </div>
-                <div class="card">
-                    <!-- First line-->
-                    <div class="card__description">
-                        <!-- First column-->
-                        <div class="description">
-                            <h3 class="description__title">Talvez você também se interesse por...</h3>
-                            <h2 class="description__title-book">Ordem Paranormal RPG</h2>
-                            <p class="description__text">A maior série de RPG do Brasil agora é um jogo completo de mistério, terror e ação!</p>
-                        </div>
-                        <img src="assets/img/ordem-paranormal-highlight.svg" alt="Ordem Paranormal RPG">
+                <div class="form__pair">
+                    <div class="form__camp">
+                        <label for="birth" class="label__camp">Nascimento</label>
+                        <input type="date" name="birth" id="birth" class="write__camp">
                     </div>
-                    <!-- Second line-->
-                    <div class="card__buttons">
-                        <!-- First column-->
-                        <ul class="buttons">
-                            <li class="buttons__item"><img src="assets/img/favorites.svg" alt="Favoritar livro" ></li>
-                            <li class="buttons__item"><img src="assets/img/purchases.svg" alt="Adicionar no carrinho de compras"></li>
-                        </ul>
-                        <!-- Second column-->
-                        <a href="#" class="buttons__ancor">Saiba mais</a>
+                    <div class="form__camp">
+                        <label for="contact" class="label__camp">Contato</label>
+                        <input type="text" name="contact" id="contact" class="write__camp">
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="carousel">
-            <h2 class="carousel__title">Mais vendidos</h2>
-            <div class="carousel__container">
-                <div class="swiper">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="assets/img/dnd-master-guide.svg" alt="D&D - Guia do Mestre"></div>
-                    <div class="swiper-slide"><img src="assets/img/dnd-players-handbook.svg" alt="D&D - Livro do Jogador"></div>
-                    <div class="swiper-slide"><img src="assets/img/dnd-monster-manual.svg" alt="D&D - Manual dos Monstros"></div>
-                    <div class="swiper-slide"><img src="assets/img/spider-man-miles.svg" alt="Miles Morales - Spider-Man"></div>
-                    <div class="swiper-slide"><img src="assets/img/death-note.svg" alt="Death Note"></div>
-                    <div class="swiper-slide"><img src="assets/img/casos paranormais.svg" alt="O Guia Definitivo de RPG"></div>
-                    </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                <div class="form__camp">
+                    <label for="email" class="label__camp">Nome Completo</label>
+                    <input type="email" name="email" id="email" class="write__camp">
                 </div>
-                <div class="card">
-                    <!-- First line-->
-                    <div class="card__description">
-                        <!-- First column-->
-                        <div class="description">
-                            <img src="assets/img/rating.svg" alt="Avaliação da Escritora" class="description__rating">
-                            <h3 class="description__title">Autora do Mês</h3>
-                            <h2 class="description__title-book">Juliana Agarikov</h2>
-                            <p class="description__text">Escritora e pesquisadora, Juliana é especialista em terror psicológico e suspense.</p>
-                        </div>
-                        <img src="assets/img/writer-profile.svg" alt="Ordem Paranormal RPG">
-                    </div>
-                    <!-- Second line-->
-                    <div class="card__buttons">
-                        <!-- First column-->
-                        <ul class="buttons">
-                            <li class="buttons__item"><img src="assets/img/favorites.svg" alt="Favoritar livro" ></li>
-                            <li class="buttons__item"><img src="assets/img/purchases.svg" alt="Adicionar no carrinho de compras"></li>
-                        </ul>
-                        <!-- Second column-->
-                        <a href="#" class="buttons__ancor">Saiba mais</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="topics">
-            <h2 class="topics__title">Tópicos visitados recentemente</h2>
-            <ul class="topics__list">
-                <li class="topics__item">
-                    <a href="#" class="topics__link">Comic Books</a>
-                </li>
-                <li class="topics__item">
-                    <a href="#" class="topics__link">Dungeons & Dragons</a>
-                </li>
-                <li class="topics__item">
-                    <a href="#" class="topics__link">HQ</a>
-                </li>
-                <li class="topics__item">
-                    <a href="#" class="topics__link">Spider-Man</a>
-                </li>
-                <li class="topics__item">
-                    <a href="#" class="topics__link">Naruto</a>
-                </li>
-                <li class="topics__item">
-                    <a href="#" class="topics__link">RPG</a>
-                </li>
-                <li class="topics__item">
-                    <a href="#" class="topics__link">Vampire: the Masquerade</a>
-                </li>
-                <li class="topics__item">
-                    <a href="#" class="topics__link">TormentaRPG</a>
-                </li>
-            </ul>
-        </section>
-        <section class="contact">
-            <div class="contact__description">
-                <h2 class="contact__title">Fique por dentro das novidades!</h2>
-                <p class="contact__text">Atualizações de e-books, novos livros e quadrinhos, promoções e outros.</p>
-            </div>
-            <input type="email" placeholder="Cadastre seu e-mail" class="contact__email">
-        </section>
-        <hr/>
+            </form>
+        </main>
         <footer class="footer">
             <h2 class="footer__title">Dungeons & Comics</h2>
             <ul class="footer-list">
@@ -278,20 +182,5 @@
                 </li>
             </ul>
         </footer>
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-        <script>
-            const swiper = new Swiper('.swiper', {
-                spaceBetween: 10,
-                slidesPerView: 3,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                },
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-        </script>
     </body>
 </html>
