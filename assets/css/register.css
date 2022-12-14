@@ -1,3 +1,9 @@
+.form {
+    width: 100%;
+    margin: auto;
+    padding: 0 0 3em 0;
+}
+
 .register__background {
     background-color: var(--white);
 }
@@ -42,4 +48,78 @@
     border-radius: 24px;
     padding: 1em;
     width: 100%;
+}
+
+.form__button {
+    background-color: var(--red);
+    padding: 1em 4em;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.1em;
+    border: none;
+    margin: 2em 0 0 0;
+    cursor: pointer;
+    line-height: 30px;
+    float: right;
+}
+
+.form__button:hover {
+    background-color: var(--lead-gray);
+    transition: 0.5s;
+}
+
+.form__button:active {
+    background-color: var(--dark-red);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-register {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .form {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .form__camp {
+        margin: 0.6em 0 0.6em 0;
+    }
+
+    .form__pair {
+        display: block;
+    }
+
+    .label__camp {
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    .write__camp {
+        width: 100%;
+    }
+
+    .form__button {
+        margin: 2em 0 0 0;
+    }
+
+    .form__subtitle {
+        margin: 3em 0 2em 0;
+    }
+
+    .form__title {
+        font-size: 2em;
+    }
+
+    .form__button {
+        padding: 1em 2em;
+        display: flex;
+        justify-content: center;
+        margin: 2em auto 0 auto;
+        font-size: 1.2em;
+        float: none;
+    }
 }

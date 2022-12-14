@@ -92,24 +92,89 @@
                 <h3 class="form__subtitle">Dados pessoais</h3>
                 <div class="form__camp">
                     <label for="name" class="label__camp">Nome Completo</label>
-                    <input type="text" name="name" id="name" class="write__camp">
+                    <input type="text" name="name" id="name" class="write__camp" required>
                 </div>
                 <div class="form__pair">
                     <div class="form__camp">
                         <label for="birth" class="label__camp">Nascimento</label>
-                        <input type="date" name="birth" id="birth" class="write__camp">
+                        <input type="date" name="birth" id="birth" class="write__camp" required>
                     </div>
                     <div class="form__camp">
                         <label for="contact" class="label__camp">Contato</label>
-                        <input type="text" name="contact" id="contact" class="write__camp">
+                        <input type="text" name="contact" id="contact" class="write__camp" placeholder="(XX) XXXXX-XXXX" required>
                     </div>
                 </div>
                 <div class="form__camp">
                     <label for="email" class="label__camp">E-mail</label>
-                    <input type="email" name="email" id="email" class="write__camp">
+                    <input type="email" name="email" id="email" class="write__camp" required>
                 </div>
+                <h3 class="form__subtitle">Endereço</h3>
+                <div class="form__camp">
+                    <label for="cep" class="label__camp">CEP</label>
+                    <input type="text" name="cep" id="cep" class="write__camp" required>
+                    <div id="error"></div>
+                </div>
+                <div class="form__camp">
+                    <label for="address" class="label__camp">Endereço</label>
+                    <input type="text" name="address" id="address" class="write__camp" required>
+                </div>
+                <div class="form__pair">
+                    <div class="form__camp">
+                        <label for="birth" class="label__camp">Número</label>
+                        <input type="number" name="birth" id="birth" class="write__camp" required>
+                    </div>
+                    <div class="form__camp">
+                        <label for="contact" class="label__camp">Complemento</label>
+                        <input type="text" name="contact" id="contact" class="write__camp">
+                    </div>
+                </div>
+                <div class="form__camp">
+                    <label for="district" class="label__camp">Bairro</label>
+                    <input type="text" name="district" id="district" class="write__camp" required>
+                </div>
+                <div class="form__pair">
+                    <div class="form__camp">
+                        <label for="city" class="label__camp">Cidade</label>
+                        <input type="text" name="city" id="city" class="write__camp" required>
+                    </div>
+                    <div class="form__camp">
+                        <label for="state" class="label__camp">UF</label>
+                        <select id="state" name="state" class="write__camp">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="Enviar" class="form__button" id="send">
             </form>
         </main>
+        <hr>
         <footer class="footer">
             <h2 class="footer__title">Dungeons & Comics</h2>
             <ul class="footer-list">
