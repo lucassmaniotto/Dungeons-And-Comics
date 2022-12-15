@@ -19,7 +19,7 @@ Como no nome do curso, esse projeto foi desenvolvido pelo conceito de Mobile-Fir
 
 ### Responsividade
 
-O site é 100% responsivo e conta com acessibilidade para qualquer tela que o usuário preferir
+O site é 100% responsivo e conta com acessibilidade para qualquer tela que o usuário preferir.
 
 | Desktop :desktop_computer: | Tablet :computer: | Mobile :iphone: |
 | :---------: | :---------: | :---------: |
@@ -27,11 +27,11 @@ O site é 100% responsivo e conta com acessibilidade para qualquer tela que o us
 
 ### Funcionalidades
 
-O site conta com algumas implementações dinâmicas, como carrosséis e um formulário de registro que consome a dados de API
+O site conta com algumas implementações dinâmicas, como carrosséis e um formulário de registro que consome a dados de API:
 
 #### Carrossel
 
-Os carrosséis foram feitos com o [SwiperJS](swiperjs.com), e costumizado conforme o estilo do projeto
+Os carrosséis foram feitos com o [SwiperJS](swiperjs.com), e customizado conforme o estilo do projeto:
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/207896227-7d9c78ad-9d4c-4a53-a165-987e2b216d2d.gif)
 
@@ -42,7 +42,6 @@ O formulário de cadastro está disponível na âncora "Meu Perfil" e consome a 
 | Formulário | Tela de sucesso |
 | :---------: | :---------: |
 | ![image](https://user-images.githubusercontent.com/101435037/207906444-d6a6f08a-4718-4b21-b02c-0597e8f3f9f2.png) | ![image](https://user-images.githubusercontent.com/101435037/207906549-23e2b258-a0d7-4c3c-9d1b-adfcb689e42e.png)|
-
 
 Com o consumo da API ViaCEP, ao informar um número de CEP válido, vários relacionados do formulário são preenchidos automaticamente. Caso o CEP informado seja inválido, é tratado o erro e o usuário é informado que o CEP não está correto.
 
