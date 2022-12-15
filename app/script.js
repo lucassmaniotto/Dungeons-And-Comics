@@ -12,6 +12,7 @@ postcode.addEventListener('focusout', () => searchAddress(postcode.value));
 
 async function searchAddress(postcode) { 
     messageError.innerHTML = '';
+    formButton.disabled = false;
     try {
         const response = await fetch(`https://viacep.com.br/ws/${postcode}/json/`);
         const data = await response.json();
