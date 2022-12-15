@@ -24,6 +24,11 @@ async function searchAddress(postcode) {
         state.value = data.uf;
         return data;
     } catch (error) {
-        messageError.innerHTML = `<p>CEP inválido. Tente novamente!</p>`;
+        messageError.innerHTML = `<p class="form__error">CEP inválido. Tente novamente!</p>`;
+        district.value = '';
+        city.value = '';
+        address.value = '';
+        complement.value = '';
+        state.value = '';
     }
 }
