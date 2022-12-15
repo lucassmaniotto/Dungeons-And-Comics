@@ -4,6 +4,7 @@ const city = document.querySelector('#city');
 const address = document.querySelector('#address');
 const complement = document.querySelector('#complement');
 const state = document.querySelector('#state');
+const formButton = document.querySelector('#send');
 
 const messageError = document.querySelector('#error');
 
@@ -30,5 +31,6 @@ async function searchAddress(postcode) {
         address.value = '';
         complement.value = '';
         state.value = '';
+        formButton.disabled = true;
     }
 }
