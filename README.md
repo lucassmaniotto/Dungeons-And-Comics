@@ -6,8 +6,9 @@ Site de Livros e Comics desenvolvido no curso de responsividade com mobile-first
 | -------------  | --- |
 | :sparkles: Nome        | **Dungeons & Comics**
 | :label: Tecnologias | html, css, javascript
-|  🖥  Cursos     | https://cursos.alura.com.br/formacao-html-e-css ; https://cursos.alura.com.br/formacao-javascript-front-end
 | :rocket: URL         | https://dungeons-and-comics.vercel.app/
+|  🖥  Cursos     | https://cursos.alura.com.br/formacao-html-e-css
+| | https://cursos.alura.com.br/formacao-javascript-front-end
 
 ![D&C Logo](https://user-images.githubusercontent.com/101435037/204337677-d3f6cba8-9765-420f-aef0-a38b88de05f4.png#vitrinedev)
 
