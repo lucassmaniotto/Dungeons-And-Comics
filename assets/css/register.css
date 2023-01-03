@@ -71,6 +71,7 @@
 
 .write__camp::placeholder {
     font-family: var(--font-family);
+    font-size: 1em;
 }
 
 .write__camp:focus::placeholder {
@@ -109,20 +110,17 @@
 }
 
 .form__terms{
-    display: flex;
-    margin: 1em 0 0 0;
-    font-size: 1.1em;
-    width: 85%;
-}
-
-.terms__checkbox {
-    align-self: baseline;
-    margin: 0.5em 0 0 0.5em;
+    margin: 1em 0 0 0.1em;
+    width: 60%;
 }
 
 .terms__text {
-    align-self: baseline;
+    font-size: 1.1em;
     margin: 0.5em 0 0 0.5em;
+}
+
+#terms-error .form__error {
+    margin: 0.5em 0 0 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -144,6 +142,10 @@
 
     .submited__img {
         width: 100%;
+    }
+
+    .write__camp::placeholder {
+        font-size: 0.8em;
     }
 }
 
