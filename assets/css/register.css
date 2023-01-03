@@ -69,6 +69,10 @@
     width: 100%;
 }
 
+.write__camp::placeholder {
+    font-family: var(--font-family);
+}
+
 .write__camp:focus::placeholder {
     color: transparent;
     transition: 0.5s;
@@ -102,7 +106,23 @@
     font-weight: 700;
     font-size: 1.1em;
     margin: 0.5em 0 0 0.5em;
+}
 
+.form__terms{
+    display: flex;
+    margin: 1em 0 0 0;
+    font-size: 1.1em;
+    width: 85%;
+}
+
+.terms__checkbox {
+    align-self: baseline;
+    margin: 0.5em 0 0 0.5em;
+}
+
+.terms__text {
+    align-self: baseline;
+    margin: 0.5em 0 0 0.5em;
 }
 
 @media screen and (max-width: 1024px) {
@@ -150,10 +170,6 @@
         width: 100%;
     }
 
-    .form__button {
-        margin: 2em 0 0 0;
-    }
-
     .form__subtitle {
         margin: 3em 0 2em 0;
     }
@@ -173,5 +189,9 @@
 
     .form__error {
         margin: 0.5em 0 0 0;
+    }
+
+    .form__terms {
+        width: 100%;
     }
 }
