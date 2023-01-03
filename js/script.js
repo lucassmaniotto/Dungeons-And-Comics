@@ -110,8 +110,7 @@ formFields.forEach((field) => {
     field.addEventListener("invalid", event => event.preventDefault());
 });
 
-formButton.addEventListener("click", (event) => {
-    event.preventDefault();
+formButton.addEventListener("click", () => {
     formFields.forEach((field) => {
         verifyField(field);
     });
